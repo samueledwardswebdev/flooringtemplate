@@ -1,0 +1,196 @@
+nav {
+  padding: 1rem 0;
+}
+
+.mainMenu {
+  display: none;
+}
+
+.mobileMenu {
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  transition: 1s all ease;
+}
+
+.closeMenu {
+  position: absolute;
+  top: 1rem;
+  right: 5%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.mobileMenu a {
+  color: var(--pri-gry);
+  text-decoration: none;
+  margin: 1rem 0;
+  display: block;
+  font-size: 1.8rem;
+}
+
+.mobileMenu .mobileMenu-social {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  color: #f4f4f4;
+}
+
+.mobileMenu-social i {
+  margin: 0 1rem;
+  color: var(--pri-clr);
+}
+
+.logo {
+  display: none;
+}
+
+.openMenu {
+  display: block;
+  cursor: pointer;
+}
+
+.openMenu i {
+  font-size: 2rem;
+  color: var(--pri-gry);
+}
+
+.showcase-content {
+  height: 50vh;
+}
+
+.showcase-content-container {
+  height: 100%;
+}
+
+.showcase-content-container img {
+  width: 80%;
+}
+
+/* Services */
+#services {
+  padding: 1rem;
+}
+
+.services-items {
+  grid-template-columns: repeat(1,1fr);
+}
+
+.services-container {
+  display: block;
+}
+
+.services-container h3{
+  width: 100%;
+  text-align: center;
+}
+
+.services-container h2 {
+  width: 100%;
+}
+
+/* About */
+
+#about {
+  padding: 1rem;
+}
+
+.about-container {
+  flex-direction: column-reverse;
+  height: 100%;
+  width: 100%;
+}
+
+.about-info {
+  width: 100%;
+  padding: 0 0.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-img {
+  height: 50vh;
+  width: 100%;
+}
+
+/* Projects */
+
+#projects {
+  padding: 1rem 0;
+}
+
+.project-heading {
+  text-align: center;
+  flex-direction: column;
+}
+
+.project-headings h2 {
+  margin-bottom: 1rem;
+}
+
+.project-container,
+.project-2 .project-container {
+  flex-direction: column;
+}
+
+.project-info {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.project-info h1{
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.project-info p {
+  text-align: center;
+}
+
+.project-img {
+  width: 100%;
+  height: 50vh;
+}
+
+/* Testimonials */
+
+#testimonials {
+  padding: 2rem 1rem;
+}
+
+#testimonials p {
+  text-align: center;
+}
+
+.testimonials-container {
+  grid-template-columns: repeat(1,1fr);
+}
+
+.testimonial-item {
+  text-align: center;
+}
+
+.testimonial-item h5 {
+  text-align: center;
+}
+
+.footer-container {
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-container h2 {
+  margin: 1rem 0;
+}
+
+.footer-container img {
+  margin: auto;
+}
