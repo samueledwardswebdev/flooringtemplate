@@ -72,6 +72,10 @@ nav {
   background: #f4f4f4;
 }
 
+.mobileMenu {
+  display: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -289,6 +293,7 @@ nav {
 .project {
   background: #f4f4f4;
   margin: 2rem 0;
+  height: 100%;
 }
 
 .project-heading {
